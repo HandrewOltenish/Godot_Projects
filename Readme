@@ -2,3 +2,4 @@ Hello World!
 
 Every journey starts with a single step.
 1. Upload the scene in my-first-game.
+2. Created my-first-script with a rotating 2D object. The script rotates the icon around, and the rotation is independent to the frametrate.
