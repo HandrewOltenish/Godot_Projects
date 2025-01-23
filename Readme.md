@@ -14,6 +14,8 @@ Every journey starts with a single step.
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/my-first-script/my-first-script_signal.gif)
 
-5. WIP Created my-first-2d-game: implementing character sprites, animations, collissions.
-   5.2 Created mobs and set game rules such as game-over upon hit, time-based score system. The system is WIP, but the game runs!
+5. Created my-first-2d-game: implementing character sprites, animations, collissions.
+6. Created mobs and set game rules such as game-over upon hit, time-based score system. The system is WIP, but the game runs!
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/my-first-2d-game/my-first-2d-game_mob.gif)
+7. Implemented HUD with cool text.
+![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/my-first-2d-game/my-first-2d-game_hud.gif)   
