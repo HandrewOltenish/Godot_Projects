@@ -22,4 +22,4 @@ Every journey starts with a single step.
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/my-first-2d-game/my-first-2d-game_hud.gif)
 **8. Completed my first 2D game project!** I added background color, sound effects, and linked everything together.
 
-https://github.com/HandrewOltenish/Godot_Projects/blob/main/my-first-2d-game/my-first-2d-game_vid.mkv
+https://github.com/HandrewOltenish/Godot_Projects/blob/main/my-first-2d-game/my-first-2d-game_video.mp4
