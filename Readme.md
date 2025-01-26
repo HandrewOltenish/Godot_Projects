@@ -28,3 +28,6 @@ Every journey starts with a single step.
 9. Created the 3D project "Squash the Creeps 3D". Look at that crispy lighting!
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_light.gif)
+
+10. Created collision sphere for the player body, and mapped the keys for controlling the player.
+![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_sphere.gif)
