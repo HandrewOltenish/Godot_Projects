@@ -32,3 +32,7 @@ Every journey starts with a single step.
 10. Created collision sphere for the player body, and mapped the keys for controlling the player.
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_sphere.gif)
+
+11. Gave directional movement to the Player. 8 whole directions. So many options!
+
+![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_move.gif)
