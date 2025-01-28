@@ -36,3 +36,7 @@ Every journey starts with a single step.
 11. Gave directional movement to the Player. 8 whole directions. So many options!
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_move.gif)
+
+12. Designed the mobs with random spawnng points, speeds, and going towards the player at a random angle. Can't wait to spawn them!
+
+![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_mobdesign.gif)
