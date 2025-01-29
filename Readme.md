@@ -40,3 +40,7 @@ Every journey starts with a single step.
 12. Designed the mobs with random spawnng points, speeds, and going towards the player at a random angle. Can't wait to spawn them!
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_mobdesign.gif)
+
+13. Added mob spawn script. Now they spawn at a a random interval on a pre-determined path. Currently they boop and stack in the scene.
+
+![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_mobspawn.gif)
