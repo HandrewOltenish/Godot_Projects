@@ -28,6 +28,8 @@ script = ExtResource("1_mwt3r")
 mob_scene = ExtResource("2_xjwbx")
 
 [node name="Ground" type="StaticBody3D" parent="."]
+collision_layer = 4
+collision_mask = 0
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
 shape = SubResource("BoxShape3D_x2nus")
@@ -72,7 +74,7 @@ mesh = SubResource("CylinderMesh_ls03p")
 curve = SubResource("Curve3D_gdbk6")
 
 [node name="SpawnLocation" type="PathFollow3D" parent="SpawnPath"]
-transform = Transform3D(-1, 0, -8.7889e-05, 0, 1, 0, 8.7889e-05, 0, -1, -11.9848, 0, -11.9605)
+transform = Transform3D(-1, 0, -8.69354e-05, 0, 1, 0, 8.69354e-05, 0, -1, -11.9848, 0, -11.9605)
 
 [node name="MobTimer" type="Timer" parent="."]
 wait_time = 0.5
