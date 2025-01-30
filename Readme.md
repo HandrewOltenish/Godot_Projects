@@ -47,5 +47,5 @@ Every journey starts with a single step.
 
 14. Modified the ground, mob, and player physical intercations (layers + masks) so mobs don't collide with each other. Vroom!
 
-![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_mobscollision.gif)
+![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_mobcollision.gif)
 
