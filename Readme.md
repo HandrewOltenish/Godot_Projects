@@ -44,3 +44,8 @@ Every journey starts with a single step.
 13. Added mob spawn script. Now they spawn at a a random interval on a pre-determined path. Currently they boop and stack in the scene.
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_mobspawn.gif)
+
+14. Modified the ground, mob, and player physical intercations (layers + masks) so mobs don't collide with each other. Vroom!
+
+![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_mobscollision.gif)
+
