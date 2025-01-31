@@ -52,4 +52,5 @@ Every journey starts with a single step.
 15. Worked on collisions and squash mechanic. Now the player squashes the mob it's over the mob at about 90 degree angle
 
 [](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_mobcrash.gif)
+
 [](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_mobflower.gif)
