@@ -1,5 +1,8 @@
 extends CharacterBody3D
 
+# Emited when player is hit by a mob.
+signal hit
+
 # How fast a character moves in meters per second
 @export var speed = 14
 # The downward acceleration when in the air, in meters per second squared
@@ -39,7 +42,7 @@ func _physics_process(delta):
 		if collision.get_collider().is_in_group("mob"):
 			var mob = collision.get_collider()
 			# we check that we are hitting it from above.
-			if Vector3.UP.dot(collision.get_normal()) >0.1:
+			if Vector3.UP.dot(collision.get_normal()) > 0.1:
 				# If so, we squash it and bounce.
 				mob.squash()
 				target_velocity.y = bounce_impulse
@@ -60,3 +63,10 @@ func _physics_process(delta):
 	# Moving the character
 	velocity = target_velocity
 	move_and_slide()
+
+func die():
+	hit.emit()
+	queue_free()
+
+func _on_mob_detector_body_entered(body):
+	die()
