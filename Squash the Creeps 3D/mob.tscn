@@ -1,12 +1,47 @@
-[gd_scene load_steps=4 format=3 uid="uid://yp241q4bflk1"]
+[gd_scene load_steps=6 format=3 uid="uid://yp241q4bflk1"]
 
 [ext_resource type="Script" path="res://mob.gd" id="1_dja58"]
 [ext_resource type="PackedScene" uid="uid://c70ysfdaknvme" path="res://art/mob.glb" id="2_qwx56"]
+
+[sub_resource type="Animation" id="Animation_vknym"]
+resource_name = "float"
+length = 1.2
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.3, 0.5, 0.7, 1.2),
+"transitions": PackedFloat32Array(0.435275, 2.37841, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0.65, 0), Vector3(0, 0.52, 0), Vector3(0, 0.35, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1, 0.5, 1.2),
+"transitions": PackedFloat32Array(0.435275, 0.482968, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0.139626, 0, 0), Vector3(-0.15708, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_mhccs"]
+_data = {
+"float": SubResource("Animation_vknym")
+}
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lw2xi"]
 size = Vector3(1.6, 1.1, 1.8)
 
 [node name="Mob" type="CharacterBody3D" groups=["mob"]]
+transform = Transform3D(1, 0, 0, 0, 0.987688, 0.156434, 0, -0.156434, 0.987688, 0, 0.35, 0)
 collision_layer = 2
 collision_mask = 4
 script = ExtResource("1_dja58")
@@ -14,6 +49,13 @@ script = ExtResource("1_dja58")
 [node name="Pivot" type="Node3D" parent="."]
 
 [node name="Character" parent="Pivot" instance=ExtResource("2_qwx56")]
+transform = Transform3D(1, 0, 0, 0, 0.987688, 0.156434, 0, -0.156434, 0.987688, 0, 0.35, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Pivot/Character"]
+libraries = {
+"": SubResource("AnimationLibrary_mhccs")
+}
+autoplay = "float"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.349, 0)

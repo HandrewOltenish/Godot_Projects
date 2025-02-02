@@ -8,7 +8,7 @@ extends CharacterBody3D
 # Emitted when the player jumped on the mob
 signal squashed
 
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	move_and_slide()
 # This function will be called from the main scene.
 func initialize(start_position, player_position):
@@ -30,6 +30,7 @@ func initialize(start_position, player_position):
 	# We then rotate the velocity vector based on the mob's Y rotation
 	# in order to move in the direcetion the mob is looking.
 	velocity = velocity.rotated(Vector3.UP, rotation.y)
+	$Pivot/Character/AnimationPlayer.speed_scale = random_speed / min_speed
 
 
 func _on_visible_on_screen_notifier_3d_screen_exited() -> void:

@@ -48,21 +48,26 @@ func _physics_process(delta):
 				target_velocity.y = bounce_impulse
 				# Prevent further duplicate calls
 				break
-# In 3D the XZ plane is the ground plane.
+	# In 3D the XZ plane is the ground plane.
 	if direction != Vector3.ZERO:
 		direction = direction.normalized()
 		# Settign the basis property will affect the rotation of the node.
 		$Pivot.basis = Basis.looking_at(direction)
+		# When player movees, modify playback speed x4
+		$Pivot/Character/AnimationPlayer.speed_scale = 4
+		# When idle, reset the speed to normal
+	else:
+		$Pivot/Character/AnimationPlayer.speed_scale = 1
 	# Ground Vekocity
 	target_velocity.x = direction.x * speed
 	target_velocity.z = direction.z * speed
 	# Vertical velocity
 	if not is_on_floor(): # If in the air, fall
-		target_velocity.y = direction.y - (fall_acceleration * delta)
-		
+		target_velocity.y = target_velocity.y - (fall_acceleration * delta)
 	# Moving the character
 	velocity = target_velocity
 	move_and_slide()
+	$Pivot.rotation.x = PI / 6 * velocity.y / jump_impulse
 
 func die():
 	hit.emit()

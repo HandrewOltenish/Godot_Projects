@@ -17,8 +17,18 @@ func _on_mob_timer_timeout() -> void:
 	
 	# Spawn the mob by adding it to the Main scene.
 	add_child(mob)
-	
-
+	# We add a singal to the square label so we update the score upon
+	# squashing one.
+	mob.squashed.connect($UserInterface/ScoreLabel._on_mob_squashed.bind())
 
 func _on_player_hit() -> void:
 	$MobTimer.stop()
+	$UserInterface/Retry.show()
+
+func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("retry") and $UserInterface/Retry.visible:
+		# This restarts the current scene
+		get_tree().reload_current_scene()
+
+func _ready() -> void:
+	$UserInterface/Retry.hide()
