@@ -57,3 +57,7 @@ Every journey starts with a single step.
 16. Improved object collision, mobs only change x and z directions, and now player dies when is on the floor and colliding directly with mobs
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_playerdie.gif)
+
+**17. Completed my first 3D Project! Added UI, player and mob animations, scaled the speed when they are moving, fixed jumping and falling velocity.**
+
+![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_game.gif)
