@@ -63,3 +63,5 @@ Every journey starts with a single step.
 **17. Completed my first 3D Project! Added UI, player and mob animations, scaled the speed when they are moving, fixed jumping and falling velocity.**
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_game.gif)
+
+18. Uploaded Treearock Game Design Document.
