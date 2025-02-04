@@ -65,3 +65,4 @@ Every journey starts with a single step.
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_game.gif)
 
 18. Uploaded Treearock Game Design Document.
+19. Learning GDScript from Zero. Completed Lesson 1 to 3. Learned about the proper way to call functions, parameters, radians, and coordinates.
