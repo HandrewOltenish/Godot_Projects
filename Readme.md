@@ -66,4 +66,5 @@ Every journey starts with a single step.
 
 18. Uploaded Treearock Game Design Document.
 19. Learning GDScript from Zero. Completed Lesson 1 to 3. Learned about the proper way to call functions, parameters, radians, and coordinates.
-20. 20 Learning GDScript from Zero. Completed Lesson 4. Played with a turtle-function and gave it instructions to draw corners, and a square.
+20. Learning GDScript from Zero. Completed Lesson 4. Played with a turtle-function and gave it instructions to draw corners, and a square.
+21. Learning GDScript from Zero. Completed Lesson 5. Created functions, and function parameters to draw corners, and rectangles of varying sizes and degrees.
