@@ -27,6 +27,7 @@ Every journey starts with a single step.
 <video controls="" width="800" height="500" muted="" loop="" autoplay="">
 <source src="https://github.com/HandrewOltenish/Godot_Projects/blob/main/my-first-2d-game/my-first-2d-game_video.mp4" type="video/mp4">
 </video>
+
 ## Making the first 3D Game Project - Squash The Creeps 3D
 9. Created the 3D project "Squash the Creeps 3D". Look at that crispy lighting!
 
