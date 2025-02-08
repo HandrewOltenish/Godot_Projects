@@ -1,6 +1,7 @@
 # Hello World!
 
 Every journey starts with a single step.
+## Making the first 2D Game Project - Squash The Creeps 2D
 1. Upload the scene in my-first-game.
 2. Created my-first-script with a rotating 2D object. The script rotates the icon around, and the rotation is independent to the frametrate.
 
@@ -26,7 +27,7 @@ Every journey starts with a single step.
 <video controls="" width="800" height="500" muted="" loop="" autoplay="">
 <source src="https://github.com/HandrewOltenish/Godot_Projects/blob/main/my-first-2d-game/my-first-2d-game_video.mp4" type="video/mp4">
 </video>
-
+## Making the first 3D Game Project - Squash The Creeps 3D
 9. Created the 3D project "Squash the Creeps 3D". Look at that crispy lighting!
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_light.gif)
@@ -65,7 +66,9 @@ Every journey starts with a single step.
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Squash%20the%20Creeps%203D/squash_the_creeps_3d_game.gif)
 
 18. Uploaded Treearock Game Design Document.
-19. Learning GDScript from Zero. Completed Lesson 1 to 3. Learned about the proper way to call functions, parameters, radians, and coordinates.
-20. Learning GDScript from Zero. Completed Lesson 4. Played with a turtle-function and gave it instructions to draw corners, and a square.
-21. Learning GDScript from Zero. Completed Lesson 5. Created functions, and function parameters to draw corners, and rectangles of varying sizes and degrees.
-22. Learning GDScript from Zero. Completed Lesson 6, 7, 8, 9. Function parameters, variables, sub-variables. I have used this in C before with structure, in C++ with objects. They are similar.
+## Learning GDScript from Zero
+20. Lesson 1 to 3. Learned about the proper way to call functions, parameters, radians, and coordinates.
+21. Lesson 4. Played with a turtle-function and gave it instructions to draw corners, and a square.
+22. Lesson 5. Created functions, and function parameters to draw corners, and rectangles of varying sizes and degrees.
+23. Lesson 6 to 9. Function parameters, variables, sub-variables. I have used this in C before with structure, in C++ with objects. They are similar.
+24. Lesson 10 to 15. Function-wide variables, script-wide variables, 2D Vector implementation, and conditions.
