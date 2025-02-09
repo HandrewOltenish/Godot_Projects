@@ -73,3 +73,4 @@ Every journey starts with a single step.
 22. Lesson 5. Created functions, and function parameters to draw corners, and rectangles of varying sizes and degrees.
 23. Lesson 6 to 9. Function parameters, variables, sub-variables. I have used this in C before with structure, in C++ with objects. They are similar.
 24. Lesson 10 to 15. Function-wide variables, script-wide variables, 2D Vector implementation, and conditions.
+25. Lesson 16 to 17. Learned about while loops, and for loops. The creators of GDQuest recommend favoring the for loop over the while loop when developing games. The reasoning behind this being that while loop can be infinite, making the game unstable and hard to debug. The for loop has a finite number of steps and is frendlier. I would start implementing the while loop first, as I have previous experience from programming it in C.
