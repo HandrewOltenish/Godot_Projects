@@ -91,3 +91,4 @@ Every journey starts with a single step.
 ## Trearock
 39. Restructured Treearock Game Design Document. Now it has a proper summary, and descriptions. Next step is updating it with all necessary tools.
 40. Added the tools necessary (Godot 4.3 for programming, Blender for 3D assets, Paint for 2D assets). Added the Concept, gameplay overview and theme interpretation. 
+41. Wrote the basics of the Art, and Audo sections in the Game Design Document containing crude ideas about the direction of the game.
