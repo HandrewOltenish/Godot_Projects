@@ -94,3 +94,5 @@ Every journey starts with a single step.
 41. Wrote the basics of the Art, and Audo sections in the Game Design Document containing crude ideas about the direction of the game.
 42. Completed the Basic Game Design Document. Starting Development Timeline. I will continue updating the Development Timeline from within the GDD with the necessary milestones until I complete the **Minimum Viable Product**.
 43. Added and working on the first Milestone - **Basic Environment**. I should have a platform acting as ground, a tree, a rock, and a player character, all with interactions by **01 April 2025**. I need to make a plan, a documentation with each step in the process. This way it will be easier to follow, and re-do the game if I hit a dead end.
+44. Created the scene with Player, Ground, Tree , and Rock. The scene has global illumination, shadows and a skybox. All objects have physics and collisions. In the next day I will create the interaction between Player and Tree.
+![](Treearock/treearock_basic_scene_01.03.2025.gif)
