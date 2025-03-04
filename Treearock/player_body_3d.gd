@@ -25,10 +25,11 @@ func _physics_process(delta: float) -> void:
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
 	move_and_slide()
- 
-var Node = get_node("TreeBody")
+	
 
-func _on_tree_body_body_entered(body: Node) -> void:
+func _on_tree_body_body_entered(_body: Node) -> void:
 	# when player touches tree + on left click event => Tree disappears
-	if Input.is_action_just_pressed("Attack"):
-		get_node("TreeBody").remove_child(Node)
+	get_node("../TreeBody")
+	if Input.is_action_pressed("Jump"):
+		if is_instance_valid("../TreeBody"):
+			get_parent().remove_child(self)
