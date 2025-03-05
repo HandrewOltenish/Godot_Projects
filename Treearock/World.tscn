@@ -1,7 +1,9 @@
-[gd_scene load_steps=22 format=3 uid="uid://bfm2sro6sibw3"]
+[gd_scene load_steps=12 format=3 uid="uid://bfm2sro6sibw3"]
 
 [ext_resource type="Texture2D" uid="uid://c38o5t8lqorei" path="res://Progress_Pics/Sky.png" id="1_105aj"]
-[ext_resource type="Script" path="res://player_body_3d.gd" id="1_d7cp6"]
+[ext_resource type="PackedScene" uid="uid://cx127ialgja1e" path="res://player_body_3d.tscn" id="2_7f1fa"]
+[ext_resource type="PackedScene" uid="uid://xa04pk2b5da1" path="res://tree_body_3d.tscn" id="3_11pre"]
+[ext_resource type="PackedScene" uid="uid://cdqn86qmw6ww2" path="res://rock_body_3d.tscn" id="4_417jj"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_1fbw1"]
 size = Vector3(10, 2, 10)
@@ -25,36 +27,6 @@ sky = SubResource("Sky_onvvq")
 
 [sub_resource type="CameraAttributesPhysical" id="CameraAttributesPhysical_775gx"]
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6ql2v"]
-
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_cpfnd"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_swxwx"]
-albedo_color = Color(0.957962, 0.522773, 0.181371, 1)
-
-[sub_resource type="PrismMesh" id="PrismMesh_ffsf2"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kimr7"]
-albedo_color = Color(0.0547892, 0.22951, 0.0145677, 1)
-
-[sub_resource type="CylinderMesh" id="CylinderMesh_omm4i"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_raytg"]
-albedo_color = Color(0.254902, 0.14902, 0.0745098, 1)
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ndpef"]
-albedo_color = Color(0.054902, 0.231373, 0.0156863, 1)
-
-[sub_resource type="PrismMesh" id="PrismMesh_i563q"]
-material = SubResource("StandardMaterial3D_ndpef")
-
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_d7e3t"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_m4bmn"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v7w2o"]
-albedo_color = Color(0.408329, 0.408329, 0.408329, 1)
-
 [node name="World" type="Node3D"]
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
@@ -75,21 +47,6 @@ environment = SubResource("Environment_02wsw")
 attributes = SubResource("CameraAttributesPhysical_775gx")
 metadata/_edit_group_ = true
 
-[node name="PlayerBody3D" type="CharacterBody3D" parent="."]
-script = ExtResource("1_d7cp6")
-metadata/_edit_group_ = true
-
-[node name="PlayerCollision3D" type="CollisionShape3D" parent="PlayerBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.76958, 0)
-shape = SubResource("CapsuleShape3D_6ql2v")
-metadata/_edit_group_ = true
-
-[node name="PlayerMesh3D" type="MeshInstance3D" parent="PlayerBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.723, 0)
-mesh = SubResource("CapsuleMesh_cpfnd")
-surface_material_override/0 = SubResource("StandardMaterial3D_swxwx")
-metadata/_edit_group_ = true
-
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 22, 20)
 light_energy = 0.5
@@ -97,40 +54,8 @@ light_bake_mode = 0
 shadow_enabled = true
 shadow_blur = 9.8
 
-[node name="TreeBody" type="RigidBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.758108, 0)
-inertia = Vector3(0, 10, 0)
-metadata/_edit_group_ = true
+[node name="PlayerBody3D" parent="." instance=ExtResource("2_7f1fa")]
 
-[node name="TreeMesh" type="MeshInstance3D" parent="TreeBody"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.215, 3, 0)
-mesh = SubResource("PrismMesh_ffsf2")
-skeleton = NodePath("../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_kimr7")
+[node name="TreeBody3D" parent="." instance=ExtResource("3_11pre")]
 
-[node name="TreeTrunkMesh" type="MeshInstance3D" parent="TreeBody/TreeMesh"]
-transform = Transform3D(0.5, 0, 0, 0, 1.5, 0, 0, 0, 0.5, 0, -1.74404, 0)
-mesh = SubResource("CylinderMesh_omm4i")
-surface_material_override/0 = SubResource("StandardMaterial3D_raytg")
-
-[node name="TreeLeafMesh" type="MeshInstance3D" parent="TreeBody/TreeMesh"]
-transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.593027, 0)
-mesh = SubResource("PrismMesh_i563q")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="TreeBody"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.21063, 1.27581, 0)
-shape = SubResource("CylinderShape3D_d7e3t")
-
-[node name="RigidBody3D" type="RigidBody3D" parent="."]
-
-[node name="RockMesh" type="MeshInstance3D" parent="RigidBody3D"]
-transform = Transform3D(0.778145, -0.628085, 0, 0.329089, 0.407714, 0.851745, -0.534969, -0.662781, 0.523956, 2.87892, 0.95384, 3.2502)
-mesh = SubResource("BoxMesh_m4bmn")
-skeleton = NodePath("../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_v7w2o")
-
-[node name="CollisionPolygon3D" type="CollisionPolygon3D" parent="RigidBody3D"]
-transform = Transform3D(0.778145, -0.628085, 0, 0.329089, 0.407714, 0.851745, -0.534969, -0.662781, 0.523956, 2.87892, 0.95384, 3.2502)
-polygon = PackedVector2Array(0.485712, 0.476863, -0.505291, 0.495677, -0.493054, -0.491659, 0.495024, -0.502854)
-
-[connection signal="body_entered" from="TreeBody" to="PlayerBody3D" method="_on_tree_body_body_entered"]
+[node name="RockBody3D" parent="." instance=ExtResource("4_417jj")]
