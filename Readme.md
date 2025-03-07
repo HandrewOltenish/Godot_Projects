@@ -100,3 +100,4 @@ Every journey starts with a single step.
 46. Working on get_node function. It should get the Node itself so I can modify, or delete it ingame. For example, the player clicks a tree, the tree disappears.
 47. Apparently I can use just the remove_child() / queue_free() function to remove the tree / remove the tree + free memory. The problem is, even when testing with player node, the event does not trigger.
 48. Separated the Nodes. Instead of one Scene containing a Node3D containing everything, now there are separate scenes for Player, Tree, Rock, and World. This makes it easier to work out connections.
+49. Currently pursuing two strategies for player interactions: Area3D collision, and RayCast3D.
