@@ -101,3 +101,4 @@ Every journey starts with a single step.
 47. Apparently I can use just the remove_child() / queue_free() function to remove the tree / remove the tree + free memory. The problem is, even when testing with player node, the event does not trigger.
 48. Separated the Nodes. Instead of one Scene containing a Node3D containing everything, now there are separate scenes for Player, Tree, Rock, and World. This makes it easier to work out connections.
 49. Currently pursuing two strategies for player interactions: Area3D collision, and RayCast3D.
+50. I am away from home this weekend, so I'm working on Treearock Mobile version. The player object, tree object, and ground object are added. RayCast3D is added. I am currently working on implementing touch screen controls for Android, and then implementing signals connected to RayCast3D to aid with interactions between the player and the environment.
