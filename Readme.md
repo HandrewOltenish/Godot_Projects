@@ -103,3 +103,4 @@ Every journey starts with a single step.
 49. Currently pursuing two strategies for player interactions: Area3D collision, and RayCast3D.
 50. I am away from home this weekend, so I'm working on Treearock Mobile version. The player object, tree object, and ground object are added. RayCast3D is added. I am currently working on implementing touch screen controls for Android, and then implementing signals connected to RayCast3D to aid with interactions between the player and the environment.
 51. The signal works, and the tree now disappears when mouse cursor enters the tree's 3D area. Currently debugging on why Input.is_action_just_pressed("Attack) does not detect the Left Mouse clicked, which was mapped for "Attack".
+52. Left mouse click still not detected. Will verify ALL control nodes and key mappings to see what is going on.
