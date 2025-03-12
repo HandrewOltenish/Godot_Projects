@@ -105,3 +105,4 @@ Every journey starts with a single step.
 51. The signal works, and the tree now disappears when mouse cursor enters the tree's 3D area. Currently debugging on why Input.is_action_just_pressed("Attack) does not detect the Left Mouse clicked, which was mapped for "Attack".
 52. Left mouse click still not detected. Will verify ALL control nodes and key mappings to see what is going on.
 53. Did not verify control node. Verifying Input class and debugging only that.
+54. Currently there is an issue the function. The tree dissappears when "Attack" is pressed, however the behavior needs to be consistent.
