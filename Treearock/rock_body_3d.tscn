@@ -1,6 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://cdqn86qmw6ww2"]
-
-[ext_resource type="PackedScene" uid="uid://cx127ialgja1e" path="res://player_body_3d.tscn" id="1_cwegp"]
+[gd_scene load_steps=3 format=3 uid="uid://cdqn86qmw6ww2"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_p70b4"]
 
@@ -18,7 +16,3 @@ surface_material_override/0 = SubResource("StandardMaterial3D_djeen")
 [node name="CollisionPolygon3D" type="CollisionPolygon3D" parent="."]
 transform = Transform3D(0.778145, -0.628085, 0, 0.329089, 0.407714, 0.851745, -0.534969, -0.662781, 0.523956, 2.87892, 0.95384, 3.2502)
 polygon = PackedVector2Array(0.485712, 0.476863, -0.505291, 0.495677, -0.493054, -0.491659, 0.495024, -0.502854)
-
-[node name="PlayerBody3D" parent="." instance=ExtResource("1_cwegp")]
-
-[connection signal="body_entered" from="." to="PlayerBody3D" method="_on_rigid_body_3d_body_entered"]

@@ -4,6 +4,7 @@ extends CharacterBody3D
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 
+signal oops
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -26,10 +27,10 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 	
+func kaboom():
+	oops.emit()
+	queue_free()
 
-func _on_tree_body_body_entered(_body: Node) -> void:
-	# when player touches tree + on left click event => Tree disappears
-	get_node("../TreeBody")
-	if Input.is_action_pressed("Jump"):
-		if is_instance_valid("../TreeBody"):
-			get_parent().remove_child(self)
+
+#func _on_area_3d_area_entered(area: Area3D) -> void:
+#	check

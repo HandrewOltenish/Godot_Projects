@@ -46,6 +46,7 @@ transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.593027, 0)
 mesh = SubResource("PrismMesh_4eqd7")
 
 [node name="Area3D" type="Area3D" parent="."]
+priority = 1
 script = ExtResource("2_7wqmu")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
@@ -58,4 +59,3 @@ visible = false
 shape = SubResource("CylinderShape3D_g54an")
 
 [connection signal="area_entered" from="Area3D" to="." method="_on_area_3d_area_entered"]
-[connection signal="area_exited" from="Area3D" to="." method="_on_area_3d_area_exited"]

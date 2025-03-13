@@ -1,9 +1,7 @@
-[gd_scene load_steps=12 format=3 uid="uid://bfm2sro6sibw3"]
+[gd_scene load_steps=10 format=3 uid="uid://bfm2sro6sibw3"]
 
 [ext_resource type="Texture2D" uid="uid://c38o5t8lqorei" path="res://Progress_Pics/Sky.png" id="1_105aj"]
-[ext_resource type="PackedScene" uid="uid://cx127ialgja1e" path="res://player_body_3d.tscn" id="2_7f1fa"]
-[ext_resource type="PackedScene" uid="uid://xa04pk2b5da1" path="res://tree_body_3d.tscn" id="3_11pre"]
-[ext_resource type="PackedScene" uid="uid://cdqn86qmw6ww2" path="res://rock_body_3d.tscn" id="4_417jj"]
+[ext_resource type="Script" path="res://player_body_3d.gd" id="1_d7cp6"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_1fbw1"]
 size = Vector3(10, 2, 10)
@@ -28,7 +26,6 @@ sky = SubResource("Sky_onvvq")
 [sub_resource type="CameraAttributesPhysical" id="CameraAttributesPhysical_775gx"]
 
 [node name="World" type="Node3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.677943, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 metadata/_edit_group_ = true
@@ -48,17 +45,13 @@ environment = SubResource("Environment_02wsw")
 attributes = SubResource("CameraAttributesPhysical_775gx")
 metadata/_edit_group_ = true
 
+[node name="PlayerBody3D" type="CharacterBody3D" parent="."]
+script = ExtResource("1_d7cp6")
+metadata/_edit_group_ = true
+
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 22, 20)
 light_energy = 0.5
 light_bake_mode = 0
 shadow_enabled = true
 shadow_blur = 9.8
-
-[node name="PlayerBody3D" parent="." instance=ExtResource("2_7f1fa")]
-transform = Transform3D(1, 0, 0, 0, 0.999683, -0.0251824, 0, 0.0251824, 0.999683, -0.506007, 2.21548, 0)
-
-[node name="TreeBody3D" parent="." instance=ExtResource("3_11pre")]
-
-[node name="RockBody3D" parent="." instance=ExtResource("4_417jj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0353624, 0)

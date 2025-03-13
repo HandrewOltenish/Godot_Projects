@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://cx127ialgja1e"]
+[gd_scene load_steps=6 format=3 uid="uid://cx127ialgja1e"]
 
 [ext_resource type="Script" path="res://player_body_3d.gd" id="1_8152r"]
 
@@ -9,16 +9,32 @@
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7rpgd"]
 albedo_color = Color(0.957962, 0.522773, 0.181371, 1)
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_mtq3q"]
+height = 0.1
+
 [node name="PlayerBody3D" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 0.999683, -0.0251824, 0, 0.0251824, 0.999683, 0, 0, 0)
 script = ExtResource("1_8152r")
 
 [node name="PlayerCollision3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.76958, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 shape = SubResource("CapsuleShape3D_p7t5e")
 metadata/_edit_group_ = true
 
 [node name="PlayerMesh3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.723, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 mesh = SubResource("CapsuleMesh_1u5l5")
 surface_material_override/0 = SubResource("StandardMaterial3D_7rpgd")
 metadata/_edit_group_ = true
+
+[node name="Area3D" type="Area3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0.0154326, 1.13039, -0.028475)
+disable_mode = 1
+
+[node name="InteractShape3D" type="CollisionShape3D" parent="Area3D"]
+physics_interpolation_mode = 2
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0809323, 0.0272291)
+visibility_parent = NodePath("../../PlayerMesh3D")
+shape = SubResource("CylinderShape3D_mtq3q")
+
+[connection signal="area_entered" from="Area3D" to="." method="_on_area_3d_area_entered"]
