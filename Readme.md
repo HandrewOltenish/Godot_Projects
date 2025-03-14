@@ -108,3 +108,4 @@ Every journey starts with a single step.
 54. Currently there is an issue the function. The tree dissappears when "Attack" is pressed, however the behavior needs to be consistent.
 55. Changed the approach: the input was detected on a singular frame, hence the inconsistend behavior. I opted for a variable to check whether player is in range, and pressing attack in order to cut the tree and make it disappear.
 ![](Treearock/Progress_Pics/treearock_chop_tree_13_03_2025.gif)
+56. I am away from home this weekend, therefore I am working on the mobile version, implementing touch screen controls using InputEventOnScreenDrag and InputEventOnScreenTouch.
