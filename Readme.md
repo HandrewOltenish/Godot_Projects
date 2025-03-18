@@ -111,3 +111,4 @@ Every journey starts with a single step.
 56. I am away from home this weekend, therefore I am working on the mobile version, implementing touch screen controls using InputEventOnScreenDrag and InputEventOnScreenTouch.
 57. Created movement buttons. they strafe the olayer directionally. I plan to make the button interface more user-friendly and THEN implementing InputEvents.
 58. Still on mobile version: implementing a simple camera rotation system that rotates the player model alongside it.
+59. Working on camera movement. Implemented left-right view. Next step is to rotate the character model accordingly.
