@@ -112,3 +112,4 @@ Every journey starts with a single step.
 57. Created movement buttons. they strafe the olayer directionally. I plan to make the button interface more user-friendly and THEN implementing InputEvents.
 58. Still on mobile version: implementing a simple camera rotation system that rotates the player model alongside it.
 59. Working on camera movement. Implemented left-right view. Next step is to rotate the character model accordingly.
+60. Working on fixing an error where CharacterBody3D's rotation values can not be modified.
