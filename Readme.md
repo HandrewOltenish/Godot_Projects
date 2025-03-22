@@ -115,3 +115,4 @@ Every journey starts with a single step.
 60. Working on fixing an error where CharacterBody3D's rotation values can not be modified.
 61. Added camera rotation around Y axis on PC. It is connected to the player model, so it follows it when the model is moving. I observed on the Mobile version of Treearock that in order to fully control camera attributes from the CharacterBody3D Script, the Camera3D *must* be added as a child node inside the Character3D Scene itself, not anywhere else.
 62. Simplified the code; leaving only Up/Down movement, and left/right camera rotation. Velocity needs fixing, as the player is launched off the map when starting the game.
+63. Worked on velocity, now pressing "Move Up" moves downards, and gravity makes the player float down.
