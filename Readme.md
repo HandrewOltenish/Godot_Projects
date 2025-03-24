@@ -118,3 +118,4 @@ Every journey starts with a single step.
 63. Worked on velocity, now pressing "Move Up" moves downards, and gravity makes the player float down.
 64. Player now moves towards where the camera is pointing towards. Great success!
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_move_to_camera_point_23_03_2025.gif)
+65. Discovered that when pressing "Move Left" or "Move Right" the camera rotates, and the player strafes left/right. This causes problems, as the player must rotate on the spot. Working on fix.
