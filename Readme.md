@@ -119,3 +119,4 @@ Every journey starts with a single step.
 64. Player now moves towards where the camera is pointing towards. Great success!
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_move_to_camera_point_23_03_2025.gif)
 65. Discovered that when pressing "Move Left" or "Move Right" the camera rotates, and the player strafes left/right. This causes problems, as the player must rotate on the spot. Working on fix.
+66. Debugging velocity. The player still strafes left/right. The logic behind my fix is to counteract this strafe with its negative amount. This way it cancels out, and the character rotates in place.
