@@ -12,19 +12,18 @@ func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 	var inputDir = Input.get_vector("Move Left", "Move Right", "Move Up", "Move Down")
+	var CameraDir := Vector3(inputDir.x, 0.0, inputDir.y).rotated(Vector3.UP, $Camera3D.rotation.y)
 	if Input.is_action_pressed("Move Left"):
 		$Camera3D.rotation.y += CAM_SPEED
-		velocity.x -= velocity.x * SPEED
-		velocity.z -= velocity.z * SPEED
 	if Input.is_action_pressed("Move Right"):
 		$Camera3D.rotation.y -= CAM_SPEED
-	var CameraDir := Vector3(inputDir.x, 0.0, inputDir.y).rotated(Vector3.UP, $Camera3D.rotation.y)
-	if CameraDir:
-		velocity.x = CameraDir.x * SPEED
-		velocity.z = CameraDir.z * SPEED
+	if CameraDir && Input.is_action_pressed("Move Up"):
+		velocity.x += velocity.x * SPEED
+		velocity.z += velocity.z * SPEED
 	else:
-		velocity.x = move_toward(CameraDir.x, 0, SPEED)
-		velocity.z = move_toward(CameraDir.z, 0, SPEED)
+		velocity.x -= velocity.x * SPEED
+		velocity.z -= velocity.z * SPEED
+
 	move_and_slide()
 func cut_tree():
 	cut.emit()
