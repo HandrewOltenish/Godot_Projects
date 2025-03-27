@@ -13,16 +13,16 @@ func _physics_process(delta: float) -> void:
 		velocity += get_gravity() * delta
 	var inputDir = Input.get_vector("Move Left", "Move Right", "Move Up", "Move Down")
 	var CameraDir := Vector3(inputDir.x, 0.0, inputDir.y).rotated(Vector3.UP, $Camera3D.rotation.y)
+	if CameraDir:
+		velocity.x += velocity.x * SPEED
+		velocity.z += velocity.z * SPEED
+	else:
+		velocity.x += move_toward(velocity.x, 0, SPEED)
+		velocity.z += move_toward(velocity.z, 0, SPEED)
 	if Input.is_action_pressed("Move Left"):
 		$Camera3D.rotation.y += CAM_SPEED
 	if Input.is_action_pressed("Move Right"):
 		$Camera3D.rotation.y -= CAM_SPEED
-	if CameraDir && Input.is_action_pressed("Move Up"):
-		velocity.x += velocity.x * SPEED
-		velocity.z += velocity.z * SPEED
-	else:
-		velocity.x -= velocity.x * SPEED
-		velocity.z -= velocity.z * SPEED
 
 	move_and_slide()
 func cut_tree():
