@@ -121,3 +121,4 @@ Every journey starts with a single step.
 65. Discovered that when pressing "Move Left" or "Move Right" the camera rotates, and the player strafes left/right. This causes problems, as the player must rotate on the spot. Working on fix.
 66. Debugging velocity. The player still strafes left/right. The logic behind my fix is to counteract this strafe with its negative amount. This way it cancels out, and the character rotates in place.
 67. Debugged CameraDir. Now the player rotates in place without strafing, but it does not go forward.
+68. Debugging velocity. The player does not move forward or backward, but the camera rotates.
