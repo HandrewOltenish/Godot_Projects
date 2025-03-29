@@ -123,3 +123,4 @@ Every journey starts with a single step.
 67. Debugged CameraDir. Now the player rotates in place without strafing, but it does not go forward.
 68. Debugging velocity. The player does not move forward or backward, but the camera rotates.
 69. Away from home, so working on mobile version. The behavior is the same, I am working on cancelling the velocity when pressing Left/Right
+70. At home. Basic interactions with the rock. The objective is to split the rock in two poligons when pressing "Attack". The first step is to manipulate the transform property. Currently the system does not detect the "transform" property so I am using the "basis" property.
