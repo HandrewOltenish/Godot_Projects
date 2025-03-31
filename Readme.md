@@ -124,3 +124,5 @@ Every journey starts with a single step.
 68. Debugging velocity. The player does not move forward or backward, but the camera rotates.
 69. Away from home, so working on mobile version. The behavior is the same, I am working on cancelling the velocity when pressing Left/Right
 70. At home. Basic interactions with the rock. The objective is to split the rock in two poligons when pressing "Attack". The first step is to manipulate the transform property. Currently the system does not detect the "transform" property so I am using the "basis" property.
+71. Fixed player movement. Player moves forward/backward and the player rotates in place along with the camera view.
+[](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/treearock_move_to_camera_point_31_03_2025.gif)
