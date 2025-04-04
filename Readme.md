@@ -128,3 +128,4 @@ Every journey starts with a single step.
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/treearock_move_to_camera_point_31_03_2025.gif)
 72. Worked on the RockBody3D script. Intended result was to increase Y position of RockBody3D for every click. The unexpected result is that the TreeBody3D and RockBody3D scripts do not work as intended. Only _on_body_area_3d is detected.
 73. Worked on fixing signals for tree chopping. Area3D signals are getting out of scope for my game.
+74. Fixed the signals for tree chopping. Now I have the signal logic in place.
