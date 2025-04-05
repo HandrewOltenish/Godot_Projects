@@ -129,3 +129,4 @@ Every journey starts with a single step.
 72. Worked on the RockBody3D script. Intended result was to increase Y position of RockBody3D for every click. The unexpected result is that the TreeBody3D and RockBody3D scripts do not work as intended. Only _on_body_area_3d is detected.
 73. Worked on fixing signals for tree chopping. Area3D signals are getting out of scope for my game.
 74. Fixed the signals for tree chopping. Now I have the signal logic in place.
+75. Removed Area3D nodes from Player, Tree, and Rock. Added RayCast3D and debugged interactions.
