@@ -130,4 +130,4 @@ Every journey starts with a single step.
 73. Worked on fixing signals for tree chopping. Area3D signals are getting out of scope for my game.
 74. Fixed the signals for tree chopping. Now I have the signal logic in place.
 75. Removed Area3D nodes from Player, Tree, and Rock. Added RayCast3D and debugged interactions.
-76. RayCast3D detects the collisions. The logic I am following is RayCast3D collides with Body -> a signal is sent to the specific RID of that body -> an interaction is executed.
+76. RayCast3D detects the collisions. The logic I am following is RayCast3D collides with Body -> a signal is sent to the specific RID of that body -> an interaction is executed. There can be a matrix that stores all the interactions available, but for now I work with what I have.
