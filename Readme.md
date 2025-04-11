@@ -134,3 +134,4 @@ Every journey starts with a single step.
 77. Since RayCast3D.get_collision() returned the CollisionObject3D of the TreeBody3D Node, I assumed its properties could be accessed by using the method queue_free() on the value returned by get_collission(). I was wrong, as the call referenced to a null instance. It seems that anything to do with the TreeBody3D object must be done from the TreeBody3D object script itself.
 78. Worked on the mobile version of the game. Rotating RayCast3D has an error with invalid call, and rotating PlayerCharacter3D around Y axis makes the character move like the wheel of a train.
 79. Worked on the PC version of the game. Object interactions work even when signals are not emitted.
+80. Worked on the interactions, and the logic behind RayCast3D collissions. Currently RayCast3D gets the RID of the collided object, but there is no way to store it & compare it to the RID of TreeBody3D or RockBody3D
