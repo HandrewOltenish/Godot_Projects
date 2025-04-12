@@ -135,3 +135,4 @@ Every journey starts with a single step.
 78. Worked on the mobile version of the game. Rotating RayCast3D has an error with invalid call, and rotating PlayerCharacter3D around Y axis makes the character move like the wheel of a train.
 79. Worked on the PC version of the game. Object interactions work even when signals are not emitted.
 80. Worked on the interactions, and the logic behind RayCast3D collissions. Currently RayCast3D gets the RID of the collided object, but there is no way to store it & compare it to the RID of TreeBody3D or RockBody3D
+81. RayCast 3D now displays a text depending on the object collided, and runs different interactions depending on where the signal comes from.
