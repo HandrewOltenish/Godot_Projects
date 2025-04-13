@@ -136,3 +136,5 @@ Every journey starts with a single step.
 79. Worked on the PC version of the game. Object interactions work even when signals are not emitted.
 80. Worked on the interactions, and the logic behind RayCast3D collissions. Currently RayCast3D gets the RID of the collided object, but there is no way to store it & compare it to the RID of TreeBody3D or RockBody3D
 81. RayCast 3D now displays a text depending on the object collided, and runs different interactions depending on where the signal comes from.
+82. Fixed the interactions before using print debugging. Now the raycast_3d script checks the name of the collider, and executes an interaction based on the collider name. For example, if the collider name is RockBody3D, the script executes the function mine() from the Interactions script.
+![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_cut_mine_13_04_2025.gif)
