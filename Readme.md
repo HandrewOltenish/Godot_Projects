@@ -139,3 +139,4 @@ Every journey starts with a single step.
 82. Fixed the interactions before using print debugging. Now the raycast_3d script checks the name of the collider, and executes an interaction based on the collider name. For example, if the collider name is RockBody3D, the script executes the function mine() from the Interactions script.
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_cut_mine_13_04_2025.gif)
+83. **Basic Interactions Milestone achieved!** Now I updated the Game Design Document with the progress and the new goal: User Interface. 
