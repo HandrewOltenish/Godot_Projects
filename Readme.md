@@ -143,3 +143,4 @@ Every journey starts with a single step.
 83. **Basic Interactions Milestone achieved!** Now I updated the Game Design Document with the progress and the new goal: User Interface. 
 84. Created a separate scene named UI with a Control node, a MenuBar and a Button that emits a signal when pressed.
 85. Deleted the MenuBar, and added two buttons: "Resume", that resumes the game, and "Exit" that exits the game. Instantiated UI as a child scene in the World scene.
+86. Configured the buttons so that the game is paused/resumed upon pressing "Esc" key for example.
