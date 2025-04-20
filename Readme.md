@@ -144,3 +144,6 @@ Every journey starts with a single step.
 84. Created a separate scene named UI with a Control node, a MenuBar and a Button that emits a signal when pressed.
 85. Deleted the MenuBar, and added two buttons: "Resume", that resumes the game, and "Exit" that exits the game. Instantiated UI as a child scene in the World scene.
 86. Configured the buttons so that the game is paused/resumed upon pressing "Esc" key for example.
+87. Clicking "Resume" button hides the UI and un-pauses the game. Currently, the "Esc" button does not work.
+
+![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_pause_menu_20_04_2025.gif)
