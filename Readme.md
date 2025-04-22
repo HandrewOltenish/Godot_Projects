@@ -149,3 +149,4 @@ Every journey starts with a single step.
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_pause_menu_20_04_2025.gif)
 
 88. Renamed the label of the quit button from "Exit" to "Quit". Now both "Resume" and "Quit" buttons work as intended. Pressing the "Esc" key also pauses the game, and shows the UI. Added a healthbar. Currently it is not connected to anything. 
+89. Worked on the mobile version: rotating the RayCast 3D around its Y axis does not work.
