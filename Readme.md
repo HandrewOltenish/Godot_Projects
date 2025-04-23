@@ -150,3 +150,4 @@ Every journey starts with a single step.
 
 88. Renamed the label of the quit button from "Exit" to "Quit". Now both "Resume" and "Quit" buttons work as intended. Pressing the "Esc" key also pauses the game, and shows the UI. Added a healthbar. Currently it is not connected to anything. 
 89. Worked on the mobile version: rotating the RayCast 3D around its Y axis does not work.
+90. Worked on the PC version. Tested health bar depletion by decreasing the size of the rectangle every second. When the size reaches 0 a UI screen pops up with the button "Try again"
