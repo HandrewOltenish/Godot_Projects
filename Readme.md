@@ -152,3 +152,4 @@ Every journey starts with a single step.
 89. Worked on the mobile version: rotating the RayCast 3D around its Y axis does not work.
 90. Worked on the PC version. Tested health bar depletion by decreasing the size of the rectangle every second. When the size reaches 0 a UI screen pops up with the button "Try again".
 91. Created the Inventory scene, and instantiated it to the World scene. The intended use is pressing the "I" key to open/close the inventory, however right now it is not working.
+92. Worked on Treearock mobile version since I am away from home. The "Left" or "Right" button rotate the character and the raycast accordingly.
