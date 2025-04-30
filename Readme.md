@@ -155,3 +155,4 @@ Every journey starts with a single step.
 92. Worked on Treearock mobile version since I am away from home. The "Left" or "Right" button rotate the character and the raycast accordingly.
 93. Reworked the logic: before, the character, camera, and raycast were rotating with a certain speed each. Since camera is part of character, t means that camera had twice the rotation speed of the character. Currently, only character and raycast rotate with a certain speed each. Also, pressing the "Forward" and "Backward" buttons moves the character accordingly. Lastly, I rearranged the buttons, decreased their interaction radius, and decreased the Field of View (FOV) from 75 degrees to 45 degrees
 94. Added "Interact" Button to serve as universal way of the player to interact with the environment, just like in the PC version.
+95. Worked on the PC version. The "Resume" button from the Start/Pause menu detects inputs, however it does not hide UI elements.
