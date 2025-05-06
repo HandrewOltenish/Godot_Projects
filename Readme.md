@@ -158,4 +158,5 @@ Every journey starts with a single step.
 95. Worked on the PC version. The "Resume" button from the Start/Pause menu detects inputs, however it does not hide UI elements.
 96. UI Resume/Pause works as intended. Worked on Inventory node. The signal to open the inventory on pressing the "Inventory" key is not detected
 97. Created a signal from the Inventory node, and a script in order to fix the earlier issue. Instantiated the "Inventory" node in the main scene, however the signal does not show.
-98. Worked on the Treearock Mobile version since I am away from home. When raycast is colliding with an object it is supposed to show a text of a label. It instead showsban error with null reference.
+98. Worked on the Treearock Mobile version since I am away from home. When raycast is colliding with an object it is supposed to show a text of a label. It instead shows an error with null reference.
+99. Worked on signals connected from the UI's label to the raycast. In order to work as intended, it will be changed so raycast emits a signal that will be interpreted by UI. This way the text can be changed even if UI/Label is not part of the same scene as raycast.
