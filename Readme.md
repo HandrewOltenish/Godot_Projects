@@ -162,3 +162,4 @@ Every journey starts with a single step.
 99. Worked on signals connected from the UI's label to the raycast. In order to work as intended, it will be changed so raycast emits a signal that will be interpreted by UI. This way the text can be changed even if UI/Label is not part of the same scene as raycast.
 100. Created two signsls ray_collision and ray_no_collision to display different texts depending on the ray colliding with an object or not. This currently displays only one text mo mather the context.
 101. Worked on the PC version: as a test, when first starting the game, clicking the "Resume" button hides the UI, and shows the player, envirnoment, and health bar. The health bar depletes every second. Once it reaches the value 0 or less, the UI is shown again with the buttons "Respawn" and "Quit".
+102. Debugged the health bar. Made a separate variable that holds the initial value of health bar's size x value, however it does not work as intended.
