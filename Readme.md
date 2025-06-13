@@ -165,3 +165,4 @@ Every journey starts with a single step.
 102. Debugged the health bar. Made a separate variable that holds the initial value of health bar's size x value, however it does not work as intended.
 103. Worked on the Mobile version. Ray detects the collision, and displays "Hello!". However when ray is not colliding with anything it does not display "Goodbye!".
 104. Worked on a different 2D platformer with a friend. movement, dash, jump.
+105. Worked on the healthbar resetting to its original starting value once the "Respawn" button is pressed.
