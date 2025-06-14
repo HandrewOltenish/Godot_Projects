@@ -165,4 +165,7 @@ Every journey starts with a single step.
 102. Debugged the health bar. Made a separate variable that holds the initial value of health bar's size x value, however it does not work as intended.
 103. Worked on the Mobile version. Ray detects the collision, and displays "Hello!". However when ray is not colliding with anything it does not display "Goodbye!".
 104. Worked on a different 2D platformer with a friend. movement, dash, jump.
-105. Worked on the healthbar resetting to its original starting value once the "Respawn" button is pressed.
+105. Worked on the health bar resetting to its original starting value once the "Respawn" button is pressed.
+106. Fixed the health bar: now it depletes, pauses the game, shows UI. On "Respawn" it unpauses the game, hides UI, resets the value of the health bar.
+
+![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_health_bar_14_06_2025.gif)
