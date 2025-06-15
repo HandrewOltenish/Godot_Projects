@@ -169,3 +169,5 @@ Every journey starts with a single step.
 106. Fixed the health bar: now it depletes, pauses the game, shows UI. On "Respawn" it unpauses the game, hides UI, resets the value of the health bar.
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_health_bar_14_06_2025.gif)
+
+107. Working on fixing the logic behind health bar depletion. The health bar restarts and depletes even after UI is shown. The first fix with get_tree().is_paused() did not work, as the tree itself is the UI. The next possible fix is to put this logic in the World tree, where the game is running.
