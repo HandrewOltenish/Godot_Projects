@@ -171,3 +171,4 @@ Every journey starts with a single step.
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_health_bar_14_06_2025.gif)
 
 107. Working on fixing the logic behind health bar depletion. The health bar restarts and depletes even after UI is shown. The first fix with get_tree().is_paused() did not work, as the tree itself is the UI. The next possible fix is to put this logic in the World tree, where the game is running.
+108. Quick fix: health bar depletes only when UI is hidden. In the world.gd the game is paused while UI is visible, therefore health bar stops depleting when game is paused.
