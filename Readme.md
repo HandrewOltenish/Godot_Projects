@@ -172,3 +172,4 @@ Every journey starts with a single step.
 
 107. Working on fixing the logic behind health bar depletion. The health bar restarts and depletes even after UI is shown. The first fix with get_tree().is_paused() did not work, as the tree itself is the UI. The next possible fix is to put this logic in the World tree, where the game is running.
 108. Quick fix: health bar depletes only when UI is hidden. In the world.gd the game is paused while UI is visible, therefore health bar stops depleting when game is paused.
+109. Added an enemy as a CharacterBody3D Scene - it will only be controlled by its script (gravity, collision, movement) so other objects will not interact with it unless explicitly programmed to do so.
