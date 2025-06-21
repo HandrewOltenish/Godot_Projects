@@ -175,4 +175,4 @@ Every journey starts with a single step.
 109. Added an enemy as a CharacterBody3D Scene - it will only be controlled by its script (gravity, collision, movement) so other objects will not interact with it unless explicitly programmed to do so.
 110. Working on gravity and pathing towards the player for the enemy.
 111. Worked on Treearock Mobile version. Tested RayCast3D collision by displaying a label with specific text.
-112. Learner a bit about AI and state machines.
+112. Learned a bit about AI and state machines.
