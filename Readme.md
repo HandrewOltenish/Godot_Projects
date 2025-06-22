@@ -176,3 +176,4 @@ Every journey starts with a single step.
 110. Working on gravity and pathing towards the player for the enemy.
 111. Worked on Treearock Mobile version. Tested RayCast3D collision by displaying a label with specific text.
 112. Learned a bit about AI and state machines.
+113. Made the Ground a separate scene. It is easier so instantiate and edit for the future. Instantiated it 2 more times in the World scene to make space for testing stuff. Added the Area3D enemy for the purpose of detecting the player and chassing it while inside the area.
