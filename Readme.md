@@ -180,3 +180,4 @@ Every journey starts with a single step.
 114. The enemy reacts when the player enters its vision. Enemy is supposed to move towards the player.
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_enemy_23_06_2025.gif)
+115. Worked on the enemy behavior. When player enters enemy's Vision Area3D, the enemy moves away. Enemy should move towards the player.
