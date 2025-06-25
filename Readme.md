@@ -181,3 +181,9 @@ Every journey starts with a single step.
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_enemy_23_06_2025.gif)
 115. Worked on the enemy behavior. When player enters enemy's Vision Area3D, the enemy moves away. Enemy should move towards the player.
+116. Searched a solution for this, and the issue is that I was modifying velocity instead of position, this is why enemy was moving away.
+
+pseudocode is:
+
+if player is in enemy.vision:
+enemy.position = enemy.position.move_toward(enemy.position, player.position, Speed * delta(
