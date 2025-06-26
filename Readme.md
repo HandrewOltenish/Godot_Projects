@@ -186,4 +186,6 @@ Every journey starts with a single step.
 pseudocode is:
 
 if player is in enemy.vision:
-enemy.position = enemy.position.move_toward(enemy.position, player.position, Speed * delta(
+enemy.position = enemy.position.move_toward(enemy.position, player.position, Speed * delta)
+
+115. Worked on the mobile version. the interact button is making the character rotate. It is supposed to make the tree object move upon key press.
