@@ -190,3 +190,4 @@ enemy.position = enemy.position.move_toward(enemy.position, player.position, Spe
 
 117. Worked on the mobile version. the interact button is making the character rotate. It is supposed to make the tree object move upon key press.
 118. Worked on the PC version of Treearock. Applied the solution from Step 116. The enemy advances towards the player, however this advance works with position instead of velocity, which means the enemy "teleports" towards the player each second. Also, this is inconsistent, as the enemy does not continue advancing towards the player while the player is in the Vision area.
+119. Worked on enemy navigation. Coded linear interpolation, used delta, however it does not work. Will explore other options.
