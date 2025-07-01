@@ -180,6 +180,7 @@ Every journey starts with a single step.
 114. The enemy reacts when the player enters its vision. Enemy is supposed to move towards the player.
 
 ![](https://github.com/HandrewOltenish/Godot_Projects/blob/main/Treearock/Progress_Pics/treearock_enemy_23_06_2025.gif)
+
 115. Worked on the enemy behavior. When player enters enemy's Vision Area3D, the enemy moves away. Enemy should move towards the player.
 116. Searched a solution for this, and the issue is that I was modifying velocity instead of position, this is why enemy was moving away.
 
@@ -193,3 +194,10 @@ enemy.position = enemy.position.move_toward(enemy.position, player.position, Spe
 119. Worked on enemy navigation. Coded linear interpolation, used delta, however it does not work. Will explore other options.
 120. Re-thought enemy navigation: instead of using the move_towards method, I opted for NavigationRegion - NaviationAgent system. This gives the enemy a navigation mesh where it can move freely. This makes enemy navigation easier in the future, and has the potential to expand to visibility systems, obstacle avoidance, and complex pathing.
 121. Updated NavigationAgent3D code, now the game runs, however the enemy floats away.
+122. Learned more about navigation. The navigation's velocity should be updated with the like:
+
+new_velocity = (new_position - current_position).normalized() * SPEED
+
+and the velocity would be:
+
+velocity = velocity.move_towards(new_velocity, 0.5) (this is to smooth the velocity and make it more responsive)
