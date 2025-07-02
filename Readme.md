@@ -1,4 +1,4 @@
-see# Hello World!
+# Hello World!
 
 Every journey starts with a single step.
 ## Making the first 2D Game Project - Squash The Creeps 2D
@@ -201,3 +201,5 @@ new_velocity = (new_position - current_position).normalized() * SPEED
 and the velocity would be:
 
 velocity = velocity.move_towards(new_velocity, 0.5) (this is to smooth the velocity and make it more responsive)
+
+123. I added the code above, but the enemy still floats away from the player. It needs more debugging with handling player current position.
