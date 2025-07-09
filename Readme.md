@@ -204,3 +204,4 @@ velocity = velocity.move_towards(new_velocity, 0.5) (this is to smooth the veloc
 
 123. I added the code above, but the enemy still floats away from the player. It needs more debugging with handling player current position.
 124. Debugged the enemy AI pathing towards player. The enemy goes to a certain point away from the player, increasing with velocity's value.
+125. Did more debugging. Now the enemy hops in place.
