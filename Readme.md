@@ -88,7 +88,7 @@ Every journey starts with a single step.
 37. Learned about best practices about Godot Interfaces: when you need a script that relies on other objects for features. There are two parts to go about the process: the first one is to create a reference that points to the object, and the second one to access the data or logic from the object.
 38. Lesson 27: Type hints! GDscript is a simple language. For simplicity, the script assumes types when you declare values. Pros? Fast typing. Cons? It gets harder to read and understand the code the bigger it gets. Two weeks in, or two months in you won't know what you typed. This is where type hints come to: you hint a type, and then the computer sets the value to that specific type. Let's say you declare variable var health = 100. Computer assumes it's an int with value 100. Cool. But I want it to be float, so I can type var health: float = 100.0 . You tell the computer "Maybe set this value as a float *wink wink* ". You can also use GDScript's type inference, and type it like this var health := float 100.0 . It will do its best to set the type to the one after the := sign. Overall this type hinting is good because it helps you learn the types, it organises code better, is more debugger-friendly, and easier for your brain when you read it after two months, or when you are tired.
     == END OF THE COURSE: LEARNING GSCRIPT FROM ZERO ==
-## Trearock
+## Treearock
 39. Restructured Treearock Game Design Document. Now it has a proper summary, and descriptions. Next step is updating it with all necessary tools.
 40. Added the tools necessary (Godot 4.3 for programming, Blender for 3D assets, Paint for 2D assets). Added the Concept, gameplay overview and theme interpretation. 
 41. Wrote the basics of the Art, and Audo sections in the Game Design Document containing crude ideas about the direction of the game.
@@ -205,3 +205,5 @@ velocity = velocity.move_towards(new_velocity, 0.5) (this is to smooth the veloc
 123. I added the code above, but the enemy still floats away from the player. It needs more debugging with handling player current position.
 124. Debugged the enemy AI pathing towards player. The enemy goes to a certain point away from the player, increasing with velocity's value.
 125. Did more debugging. Now the enemy hops in place.
+## Paradigm Shift - Esports Management and Game Development Course
+126. The process continues. However, since there is no progress with the Treearock game, I shifted to following this course. This serves to **improve critical thinking, logic, and creativity.** Following this course also fills me with **motivation**, as now there are **two sources** that are part of the process. When one source stalls, I swtich to another.
