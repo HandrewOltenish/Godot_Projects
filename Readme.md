@@ -207,4 +207,5 @@ velocity = velocity.move_towards(new_velocity, 0.5) (this is to smooth the veloc
 125. Did more debugging. Now the enemy hops in place.
 ## Paradigm Shift - Esports Management and Game Development Course
 126. The process continues. However, since there is no progress with the Treearock game, I shifted to following this course. This serves to **improve critical thinking, logic, and creativity.** Following this course also fills me with **motivation**, as now there are **two sources** that are part of the process. When one source stalls, I swtich to another.
-127. **Introduction to Esports**: completed Module I: *What is Esports?*. Learned the history, the definition and the impact of esports on the present and future of the gaming industry. 
+127. **Introduction to Esports**: completed Module I: *What is Esports?*. Learned the history, the definition and the impact of esports on the present and future of the gaming industry.
+128. Completed Module II: "*Esports mediumms*. Learned the various pros and cons of PCs, consoles and mobiles, and how each medium is predicted to evolve in the future.
