@@ -210,3 +210,4 @@ velocity = velocity.move_towards(new_velocity, 0.5) (this is to smooth the veloc
 127. **Introduction to Esports**: completed Module I: *What is Esports?*. Learned the history, the definition and the impact of esports on the present and future of the gaming industry.
 128. Completed Module II: "*Esports mediumms*. Learned the various pros and cons of PCs, consoles and mobiles, and how each medium is predicted to evolve in the future.
 129. Completed module III: Popular esports games. Learned about LoL, Dota2, Valorant, CSGO,CoD, Apex, PUBG, Fortnite, OW, FIFA, Rocket League and Starctaft II. , and the key skills to excel in these games.
+130. Done with Module IV: Esports Gaming genres: MOBA, Shooters, Fighting, Racing & Sport Simulation, and Trading Card Games are all on the list. The competitive esport is the Fighting Game genre that started in 1973.
