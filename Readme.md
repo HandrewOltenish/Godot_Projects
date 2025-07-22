@@ -218,4 +218,5 @@ velocity = velocity.move_towards(new_velocity, 0.5) (this is to smooth the veloc
 135. Finished Module XI: Levels of Esports - this felt very dumbed down and vague, with advice like "collegiate esports players should focus on task prioritization, stress management, and adapting to new environments" however it does not give clear examples as to "how". For example, "players can prioritize tasks by using the Kanban method or the 4-square method". Now that I look back at the courses, they are all vague, and don't provide clear examples on how things should be done. At the same time, the language feels very smooth and corporate, and it lacks any form of humanity. It is as if the courses have been parsed through AI LLMs.
 
 However, this is the Introduction to Esports. I trust that more advanced modules will dive deeper into the topic and techniques.
+
 136. Recapped Module X: Structure of Esports.
