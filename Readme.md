@@ -224,4 +224,5 @@ However, this is the Introduction to Esports. I trust that more advanced modules
 138. Learned Module XIII: Coaching in Esports: covered team management, essential skillset, continuous improvement, and roles & functions of esports coaches.
 139. Learned Module XIV: Esports Teams: players' roles in the team, team management, training, gaming houses, contracts, and revenue management
 140. Completed Module XV: Game publishers - here it explains that game publishers also develop games and manage tournaments. They have an open system, and a closed system for managing the esports ecosystem: in the open system, game publishers allow external companies to host and organize tournaments with prizes, it allows modding, and community-created content. In the Closed system however, the publisher controls which external company manages the tournament, and which content is available, among other things.
-141. Completed Module XV: Managerial Issues - covered everything from talent managenement, ethics and professionalism, community engagement and league management.
+141. Completed Module XVI: Managerial Issues - covered everything from talent managenement, ethics and professionalism, community engagement and league management.
+142. Learned in Module XVII: Esports Investments: the why's and how's of investing in the esports landscape.
