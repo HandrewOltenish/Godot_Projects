@@ -240,3 +240,4 @@ However, this is the Introduction to Esports. I trust that more advanced modules
 154. Recapped Modules XI and XII from the "Whst and How of Esports" course. Not letting this knowledge go to waste.
 155. Recapped anodule XIII: Esports players and coaching, emphasis on team chemistry, prioritising team's objectives instead of individual goals value player opinion and feedback, bond with players outside of training. Powerful advice. Also leanred Module VII: Unity Game Engine I where there was this quick tour through Unity with its advantages. High Definition Rendering Pipeline (HDPR) is serious business.
 156. Recapped Module XIV: Esports teams and their structure, how the teams collaborate, how they live together, and the spefific role of each player in the team.
+157. Learned Module VIII: Unity Part II - This was a bit slow, explaining every feature like the Local space, World space, Object space, Vectors, Quaternions, and their advantages.
