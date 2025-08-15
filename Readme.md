@@ -242,4 +242,5 @@ However, this is the Introduction to Esports. I trust that more advanced modules
 156. Recapped Module XIV: Esports teams and their structure, how the teams collaborate, how they live together, and the spefific role of each player in the team.
 157. Learned Module VIII: Unity Part II - This was a bit slow, explaining every feature like the Local space, World space, Object space, Vectors, Quaternions, and their advantages.
 158. Learned Module IX: Unity Part III - Mostly lessons about colliders like BoxCollider, ShapeCollider, OnTriggerEnter, OnTriggerStay.
-151. Learned Module X: Game Mechanics I - Lessons about basic game mechanics and systems like health, stamina and mana, User Interface, collisions, RigidBody, RayCasting, and analytics.
+159. Learned Module X: Game Mechanics I - Lessons about basic game mechanics and systems like health, stamina and mana, User Interface, collisions, RigidBody, RayCasting, and analytics.
+160. Completed Module XI: Game Mechanics II - Nice concepts explained here: primary mechanics, monetization, gameplay loop.
