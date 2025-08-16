@@ -244,3 +244,4 @@ However, this is the Introduction to Esports. I trust that more advanced modules
 158. Learned Module IX: Unity Part III - Mostly lessons about colliders like BoxCollider, ShapeCollider, OnTriggerEnter, OnTriggerStay.
 159. Learned Module X: Game Mechanics I - Lessons about basic game mechanics and systems like health, stamina and mana, User Interface, collisions, RigidBody, RayCasting, and analytics.
 160. Completed Module XI: Game Mechanics II - Nice concepts explained here: primary mechanics, monetization, gameplay loop.
+161. Recapped Module XV: Game Publishers - As they can create and market their own leagues and tournaments, they can also set the rules, with Open and Closed systems. I wonder what the future will hold for Esports. Probably, as the "nerdier" hobbies are assimilated by the masses, Esports will also become something common, and taken as seriously as the physical sports.
