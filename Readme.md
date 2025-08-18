@@ -245,4 +245,13 @@ However, this is the Introduction to Esports. I trust that more advanced modules
 158. Learned Module X: Game Mechanics I - Lessons about basic game mechanics and systems like health, stamina and mana, User Interface, collisions, RigidBody, RayCasting, and analytics.
 159. Completed Module XI: Game Mechanics II - Nice concepts explained here: primary mechanics, monetization, gameplay loop.
 160. Recapped Module XV: Game Publishers - As they can create and market their own leagues and tournaments, they can also set the rules, with Open and Closed systems. I wonder what the future will hold for Esports. Probably, as the "nerdier" hobbies are assimilated by the masses, Esports will also become something common, and taken as seriously as the physical sports.
-161. Recapped Module XVI::Management issues - everything from player contracts, legalities, partnerships, player conduct with partners, mental health, and community management, all withot getting into technicalities.
+161. Recapped Module XVI:Management issues - everything from player contracts, legalities, partnerships, player conduct with partners, mental health, and community management, all withot getting into technicalities.
+162. Learned Module XII - Artificial Intelligence - This is a gold mine of basic information about AI. Basically it is the step I have been stuck on in my game:
+- Pathfinding - used in all 2D and 3D games when NPC chases, follows, or pursues the player
+- Natural Language Processes - Especially good in NPC dialogues, makes them smoother
+- Fuzzy Logic - Ideal for not-true not-false situations, like the player entering and leaving enemy's attack range multiple times in succession. Good for dynamic dialogue options as well!
+- Ray Casting - used for enemy line of sight, interactions
+- Enemy line of sight - used to determine the actions of a NPC when objects or PC enters in line of sight (attack, pick up, interact)
+- Graphs - What are Graphs, but miserable piles of nodes and vertices! Graphs combined with pathfinding create amazing routines for the NPCs to follow, and by using graphs I can set big objects like bases and buildings that can be used by NPCs to navigate and find the fastest path to the player.
+- Finite State Machines - Multiple instructions given to NPCs to follow: patrol area -> PC enters line of sight -> attack PC or approach and initiate dialogue / cutscene.
+- Flocking - Bird is the word. A set of rules for pathfinding set to multiple NPCs to follow once a certain condition is met. A simple example is PC approaches pigeons, at 1 m a pigeon flies and then AI Flocking initiates and all AI pigeons follow the first one respecting their collision boundaries.
