@@ -255,3 +255,4 @@ However, this is the Introduction to Esports. I trust that more advanced modules
 - Graphs - What are Graphs, but miserable piles of nodes and vertices! Graphs combined with pathfinding create amazing routines for the NPCs to follow, and by using graphs I can set big objects like bases and buildings that can be used by NPCs to navigate and find the fastest path to the player.
 - Finite State Machines - Multiple instructions given to NPCs to follow: patrol area -> PC enters line of sight -> attack PC or approach and initiate dialogue / cutscene.
 - Flocking - Bird is the word. A set of rules for pathfinding set to multiple NPCs to follow once a certain condition is met. A simple example is PC approaches pigeons, at 1 m a pigeon flies and then AI Flocking initiates and all AI pigeons follow the first one respecting their collision boundaries.
+163. Recapped Module XVII (Esports Investments) and and Module XVIII Esports Events
