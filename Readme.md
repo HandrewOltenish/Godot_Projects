@@ -266,4 +266,4 @@ However, this is the Introduction to Esports. I trust that more advanced modules
 171. Coded for the Brackey's GameJam
 172. Coded for Brackey's GameJam - Invisible wall to prevent player from going to the right. The point is to make the wall follow the player, but I get "Invalid access to property or key 'position' on a base object of type 'Transform2D'."
 173. Worked these past few days for Brackey's GameJam 2025.2 and on a personal project. Below is the submission for Brackey's GameJam 2025.2 with the theme RISK IF FOR THE BISCUIT!:
-![Kofy's Express Biscuit Bonanza](https://itch.io/jam/brackeys-14/rate/3850588)
+[Kofy's Express Biscuit Bonanza](https://itch.io/jam/brackeys-14/rate/3850588)
